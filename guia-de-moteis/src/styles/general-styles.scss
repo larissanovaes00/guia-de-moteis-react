@@ -1,85 +1,10 @@
 
 /************************** RESET **************************/
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -92,7 +17,7 @@ ul {
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 
@@ -106,76 +31,109 @@ $light-grey: #707070;
 $white: #FFFFFF;
 
 
-/************************** FONTS **************************/
+/************************** FONT-FAMILY **************************/
 $font-regular: 'Lato-Regular';
 $font-bold: 'Lato-Bold';
 $font-light: 'Lato-Light';
 
 @font-face {
-    font-family: "Lato-Bold";
-    src: url("./Lato/Lato-Bold.ttf");
-    font-weight: 900;
-    font-style: normal;
+  font-family: "Lato-Bold";
+  src: url("./Lato/Lato-Bold.ttf");
+  font-weight: 900;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Lato-Regular";
-    src: url("./Lato/Lato-Regular.ttf");
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Lato-Regular";
+  src: url("./Lato/Lato-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Lato-Light";
-    src: url("./Lato/Lato-Light.ttf");
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Lato-Light";
+  src: url("./Lato/Lato-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
 }
 
 
-/************************** MIXINS **************************/
+/************************** FONT-SIZE **************************/
 .font-48 {
-    font-size: 48px;
+  font-size: 48px;
+  line-height: 1;
 }
 
 .font-32 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .font-22 {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .font-16 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .font-14 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .font-12 {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 
-
 /************************** GENERICS **************************/
+.m-30 {
+  &.top {
+    margin-top: 30px;
+  }
+
+  &.bottom {
+    margin-bottom: 30px;
+  }
+
+  &.left {
+    margin-left: 30px;
+  }
+
+  &.right {
+    margin-right: 30px;
+  }
+}
 
 .m-20 {
-    &.top {
-      margin-top: 20px;
-    }
-  
-    &.bottom {
-      margin-bottom: 20px;
-    }
-  
-    &.left {
-      margin-left: 20px;
-    }
-  
-    &.right {
-      margin-right: 20px;
-    }
+  &.top {
+    margin-top: 20px;
   }
+
+  &.bottom {
+    margin-bottom: 20px;
+  }
+
+  &.left {
+    margin-left: 20px;
+  }
+
+  &.right {
+    margin-right: 20px;
+  }
+}
+
+.custom-button{
+  text-transform: uppercase;
+  background: transparent;
+  border: solid 2px white;
+  color: $white;
+  padding: 10px 50px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase !important;
+  font-size: 14px !important;
+  transition: ease-in-out 0.4s;
+
+  &:hover{
+    transform: scale(0.97)
+  }
+}

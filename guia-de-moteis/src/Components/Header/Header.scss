@@ -1,22 +1,20 @@
 @import "../../styles/general-styles.scss";
 
-
-.header{
-
-    nav{
-
+.header {
+    
+    nav {
         background-color: $white;
         height: 90px;
 
-        .logo{
+        .logo {
             position: absolute;
             cursor: pointer;
         }
 
-        ul{
+        ul {
             max-width: 900px;
 
-            li{
+            li {
                font-family: $font-bold;
                font-size: 14px;
                text-transform: uppercase;
@@ -24,7 +22,7 @@
                cursor: pointer;
                transition: ease-in-out 0.4s;
 
-                &:hover{
+                &:hover {
                    color: $pinkish-red;
                    transform: scale(0.95);
                 }
@@ -32,7 +30,7 @@
         }
     }
 
-    .facebook-icon-block{
+    .facebook-icon-block {
         background-color: $black;
         width: 100px;
         position: relative;
@@ -43,11 +41,10 @@
         align-items: center;
         cursor: pointer;
         
-
         img {
             transition: ease-in-out 0.3s;
 
-            &:hover{
+            &:hover {
                 transform: scale(0.97);
             }
         }

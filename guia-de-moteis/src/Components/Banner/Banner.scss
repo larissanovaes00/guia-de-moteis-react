@@ -1,0 +1,28 @@
+@import "../../styles/general-styles.scss";
+
+.carousel-caption {
+    top: 200px;
+}
+
+.carousel-inner {
+    height: 630px;
+}
+
+.carousel-indicators li {
+    border-radius: 100% !important;
+    width: 12px  !important;
+    height: 12px !important;
+    margin-right: 15px !important;
+}
+
+#overlay{
+    position:absolute;
+    top: 90px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+    background-color: $hot-red;
+    opacity: 0.67;
+    height: 630px;
+    z-index: 2;
+}
