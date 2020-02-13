@@ -26,3 +26,20 @@
     height: 630px;
     z-index: 2;
 }
+
+.carousel-item{
+    img{
+        height: 630px;
+        object-fit: cover;
+    }
+}
+
+.carousel-control-prev, 
+.carousel-control-next{
+    display: none !important;
+}
+
+
+.carousel-indicators {
+    bottom: 110px !important;
+}
