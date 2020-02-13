@@ -1,0 +1,55 @@
+@import "../../styles/general-styles.scss";
+
+
+.header{
+
+    nav{
+
+        background-color: $white;
+        height: 90px;
+
+        .logo{
+            position: absolute;
+            cursor: pointer;
+        }
+
+        ul{
+            max-width: 900px;
+
+            li{
+               font-family: $font-bold;
+               font-size: 14px;
+               text-transform: uppercase;
+               letter-spacing: 4.2px;
+               cursor: pointer;
+               transition: ease-in-out 0.4s;
+
+                &:hover{
+                   color: $pinkish-red;
+                   transform: scale(0.95);
+                }
+            }
+        }
+    }
+
+    .facebook-icon-block{
+        background-color: $black;
+        width: 100px;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        
+
+        img {
+            transition: ease-in-out 0.3s;
+
+            &:hover{
+                transform: scale(0.97);
+            }
+        }
+    }
+}

@@ -1,0 +1,181 @@
+
+/************************** RESET **************************/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+    line-height: 1;
+}
+
+
+/************************** COLORS **************************/
+$hot-red: #D9231B;
+$pinkish-red: #D9241B;
+$black: #000000;
+$dark-grey: #111111;
+$medium-grey: #323232;
+$light-grey: #707070;
+$white: #FFFFFF;
+
+
+/************************** FONTS **************************/
+$font-regular: 'Lato-Regular';
+$font-bold: 'Lato-Bold';
+$font-light: 'Lato-Light';
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("./Lato/Lato-Bold.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    src: url("./Lato/Lato-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src: url("./Lato/Lato-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/************************** MIXINS **************************/
+.font-48 {
+    font-size: 48px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+
+
+/************************** GENERICS **************************/
+
+.m-20 {
+    &.top {
+      margin-top: 20px;
+    }
+  
+    &.bottom {
+      margin-bottom: 20px;
+    }
+  
+    &.left {
+      margin-left: 20px;
+    }
+  
+    &.right {
+      margin-right: 20px;
+    }
+  }
