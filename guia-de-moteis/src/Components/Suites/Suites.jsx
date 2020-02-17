@@ -16,8 +16,12 @@ export default class Suites extends Component {
                     </div>
                 </div>
 
-                <div className="col-12">
-                    teste
+                <div className="col-12"></div>
+
+                <div className="separator">
+                    <hr/>
+                    <div className="circle"></div>
+                    <hr/>
                 </div>
 
 
