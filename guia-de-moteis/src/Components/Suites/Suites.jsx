@@ -18,6 +18,7 @@ export default class Suites extends Component {
                     </div>
                 </div>
 
+<<<<<<< HEAD
                 <RowMobile />
 
                 <div className="row d-flex flex-wrap p-0 mt-2 c-suites-img">
@@ -37,6 +38,14 @@ export default class Suites extends Component {
                     <div className="col-12 col-sm-4 pr-sm-0">
                         <img className="suites-img" src={suiteImg} alt=""/>
                     </div>
+=======
+                <div className="col-12"></div>
+
+                <div className="separator">
+                    <hr/>
+                    <div className="circle"></div>
+                    <hr/>
+>>>>>>> e8755de6af21403650a4ed9586e333a413b36ed2
                 </div>
 
 
